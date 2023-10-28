@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeButton {
+    @apply rounded-lg flex flex-col justify-evenly gap-3 bg-white w-[200px] h-[200px] border text-[#12b5e7] items-center  ;
+}
+
+.input{
+    @apply p-2 border bg-white border-[#12b5e7] focus:border-red-500 text-black w-[300px] mb-1 h-[40px]
+}
+
+.staffInput{
+    @apply bg-white bg-opacity-10 p-2 text-white w-full mb-1 h-[40px] border border-neutral-500
+}
+
+.lable{
+    @apply flex flex-col text-[#12b5e7] font-semibold
+}
+.inputError{
+    @apply  invisible text-[11px] text-red-500 mb-1
+}
+table,tr,th,td{
+    border: 1px solid black;
+    @apply p-3 border-gray-400 
+}
+th{
+    @apply bg-[#12b5e7] text-white  border-white 
+}
+
+option{
+    @apply bg-black text-white
+}
+
+.active{
+    @apply shadow-[0_4px_40px_-15px_black]
+} 
